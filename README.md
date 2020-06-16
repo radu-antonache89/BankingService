@@ -5,12 +5,15 @@ The application uses the Spring Boot framework, which facilitates the developmen
 After loading the Java project into the eclipse IDE (Spring Tools plug-in required), the project must be run as a Spring Boot App.
 
 The application includes 3 hard-coded users, with the following credentials:
+
 User 1:
     username: "JohnDoe"
     password: "mypass"
+
 User 2:
     username: "JaneDoe"
     password: "newpass"
+
 User 3:
     username: "SteveSmith"
     password: "anotherpass"
