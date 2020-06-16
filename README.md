@@ -7,15 +7,21 @@ After loading the Java project into the eclipse IDE (Spring Tools plug-in requir
 The application includes 3 hard-coded users, with the following credentials:
 
 User 1:
+
     username: "JohnDoe"
+    
     password: "mypass"
 
 User 2:
+
     username: "JaneDoe"
+    
     password: "newpass"
 
 User 3:
+
     username: "SteveSmith"
+    
     password: "anotherpass"
 
 In order to test the ability of a user to open a new savings account, the user must send a request with the following format:
