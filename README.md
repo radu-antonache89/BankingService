@@ -1,6 +1,11 @@
 # BankingService
-The app includes an endpoint that will allow an existing user to open a savings account
 
+Requirement:
+Write an endpoint that will allow an existing user to open a savings account. The account can only be opened from Monday to Friday within working hours and the user can have only one savings account.
+The data can be stored however you see fit (e.g. database, in memory, file) and you can use any JVM language and framework.
+Optional: Create a web form that will provide the data to the backend application.
+
+Description:
 The application uses the Spring Boot framework, which facilitates the development of RESTful web service application.
 After loading the Java project into the eclipse IDE (Spring Tools plug-in required), the project must be run as a Spring Boot App.
 
