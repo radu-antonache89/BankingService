@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Savings Account</title>
+    </head>
+<body>
+    <h2>Please input your details for opening a new savings account</h2>
+    
+        <label for="user">User:</label>
+        <input type="text" id="user" name="user" value="JaneDoe"><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" value="newpass"><br>
+
+        <label for="initialDeposit">Initial Deposit:</label>
+        <input type="text" id="initialDeposit" name="initialDeposit" value="300"><br>
+
+        <button onclick="createSavingsAccount()">Create Account</button>
+    <hr>
+    <h3>Operation Result:</h3>
+    <p id="operationResult"></p>
+
+    <script>
+        function createSavingsAccount() {
+            var user = document.getElementById("user").value;
+            var pass = document.getElementById("pass").value;
+            var initialDeposit = document.getElementById("initialDeposit").value;
+
+            const xhr = new XMLHttpRequest();
+            const url = "http://localhost:8080/savingsAccounts/add?user=" + user + "&pass=" + pass + "&initialDeposit=" + initialDeposit;
+            
+            xhr.open("GET", url);
+            xhr.send();
+
+            xhr.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("operationResult").innerHTML = xhr.responseText;
+                }
+            }
+        }
+
+    </script>
+ </body>
+ </html>
