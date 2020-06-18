@@ -16,6 +16,7 @@ import service.UserService;
 import utils.DateTimeUtility;
 import utils.JsonSerializer;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/savingsAccounts")
 public class SavingsAccountController {
