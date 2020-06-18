@@ -9,6 +9,15 @@ Description:
 The application uses the Spring Boot framework, which facilitates the development of RESTful web service application.
 After loading the Java project into the eclipse IDE (Spring Tools plug-in required), the project must be run as a Spring Boot App.
 
+USAGE:
+
+1. Run the application in eclipse as Spring Boot app
+
+2. Open the "OpenSavingsAccount.html" webpage in a browser
+
+3. Use any of the available credentials listed below to open a new savings account.  
+
+
 The application includes 3 hard-coded users, with the following credentials:
 
 User 1:
