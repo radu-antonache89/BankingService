@@ -15,7 +15,7 @@ USAGE:
 
 2. Open the "OpenSavingsAccount.html" webpage in a browser
 
-3. Use any of the available credentials listed below to open a new savings account.  
+3. Use any of the available credentials listed below to open a new savings account. (the first user already has a savings account, so an error will be displayed)
 
 
 The application includes 3 hard-coded users, with the following credentials:
